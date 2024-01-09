@@ -1,4 +1,4 @@
-body{ background-color: blue;}
+
 body {
     margin: 0;
     overflow: hidden;
@@ -11,6 +11,12 @@ body {
     perspective: 800px;
 }
 .rotating-image {
+    width: 200px; 
+    height: auto;
+    transform-style: preserve-3d;
+    animation: rotateAnimation 5s infinite linear;
+}
+.rotating-gif {
     width: 200px; 
     height: auto;
     transform-style: preserve-3d;
