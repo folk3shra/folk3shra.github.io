@@ -3,7 +3,6 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
 .rotate-container {
     display: flex;
     justify-content: center;
@@ -11,16 +10,13 @@ body {
     height: 100vh;
     perspective: 800px;
 }
-
 .rotating-image {
     width: 200px; /* Set your desired width */
     height: auto;
     transform-style: preserve-3d;
     animation: rotateAnimation 5s infinite linear;
 }
-
 @keyframes rotateAnimation {
     0% { transform: rotateY(0deg); }
     100% { transform: rotateY(360deg); }
 }
-
